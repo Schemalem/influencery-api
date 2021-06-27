@@ -28,9 +28,13 @@ gem 'rack-cors', require: 'rack/cors'
 
 gem 'rubocop'
 
+gem "rspec"
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'pry-byebug'
+  gem 'rspec-rails'
+  # gem 'launchy'
 end
 
 group :development do
